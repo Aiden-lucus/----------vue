@@ -1,0 +1,11 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+     background-image: url("./wallhaven-vg7lv3.jpg");
+    background-size: cover;
+}
+.location{
+     text-align:center;
+}

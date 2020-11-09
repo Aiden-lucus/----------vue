@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MyHtml.html</title>
+	<meta charset="utf-8">
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    <meta name="content-type" content="text/html; charset=UTF-8">
+    
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+
+  </head>
+  
+  <body>
+    <form id="location" action="http://localhost:8848/ChenDongYun_201842269/demo01" method="post">
+    <h3>欢迎来到鼎利实训楼-阿里云大数据工程实训中心</h3><br>
+    姓名：<input type = "text" name="person"><br>
+    密码：<input type="password" name="password"/><br>
+    性别：
+    <input type = "radio" name = "sex" checked>男
+    <input type = "radio" name = "sex">女<br>
+    家庭住址：<input type = "text" name="Adress"><br>
+    爱好：
+    <input type = "checkbox" name = "basketball">篮球
+    <input type = "checkbox" name = "badminton">羽毛球
+    <input type = "checkbox" name = "boxing">拳击
+    <input type = "checkbox" name = "ping-pong">乒乓球<br>
+    <!-- <select>
+     <option value="html">html</option>
+     <option value="css">css</option>
+     <option value="JavaScript">JavaScript</option>
+     <option value="php">php</option>
+     </select> -->
+    <input type = "submit" onclick = "checkform()" value = "提交">
+    <input type = "reset" onclick = "checkform()" value = "重置">
+    </form>
+    <script type="text/javascript">
+       function formReset(){
+          document.getElementById("location").reset()
+          }
+    </script>
+  </body>
+</html>
